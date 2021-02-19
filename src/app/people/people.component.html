@@ -1,0 +1,8 @@
+<h3>Some people:</h3>
+<ul>
+  <li *ngFor="let person of people">
+    <a uiSref="person" [uiParams]="{ personId: person.id }">
+      {{ person.name }}
+    </a>
+  </li>
+</ul>
