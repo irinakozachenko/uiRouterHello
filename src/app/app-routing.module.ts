@@ -46,7 +46,7 @@ const INITIAL_STATES = [helloState, aboutState, peopleState, personState];
 @NgModule({
   imports: [ UIRouterModule.forRoot({
     states: INITIAL_STATES,
-    useHash: true,
+    useHash: false,
     config: uiRouterConfigFn
   })],
 
